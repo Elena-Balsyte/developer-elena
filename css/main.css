@@ -72,6 +72,24 @@ clear:both;
 }
 
  /**********************HEADER*******************/
+nav {
+  margin-top: -250px;
+  padding-bottom: 110px;
+  align-items: center;
+}
+
+nav ul li a {
+  margin-right: 15px;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #095156;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+}
 
 header {
   background-image: url("../img/hero-image.png");
@@ -125,12 +143,13 @@ span {
 ul {
   list-style-type: circle;
 }
+
 /*********************CONTACTS-SECTION*******************/
+
 section#contact {
 background-color: #095156;
 height: 450px;
 color: #ffffff;
-
 }
 
 img.icon {
