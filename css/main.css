@@ -1,0 +1,160 @@
+/***********************GRID****************/
+body {
+  width: 100%;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+ .float-left, .float-right {
+   width: 50%;
+ }
+
+ .third-width {
+   width: 33%;
+   float:left;
+   text-align: center;
+ }
+
+ div.text-box {
+   height: 500px;
+   margin: 25px;
+ }
+
+ /**********************BASE-STYLE****************/
+
+ body {
+   background-color: #ffffff;
+   font-family: 'Roboto';
+   font-size: 28px;
+   color: #095156;
+ }
+
+
+ h1, h3 {
+   font-family: 'Roboto Slab';
+   font-weight: bold;
+ }
+
+ h1 {
+   font-weight: normal;
+   font-size: 60px;
+   color: #bdbf09;
+ }
+
+ h2 {
+   font-size: 48px;
+   font-weight: lighter;
+ }
+
+ h3 {
+   font-size: 42px;
+ }
+
+ h4 {
+   font-size: 36px;
+   font-weight: bold;
+   margin: 0;
+ }
+
+ .float-left {
+   float: left;
+ }
+
+ .float-right {
+   float: right;
+ }
+
+section#about, section#contact {
+clear:both;
+}
+
+ /**********************HEADER*******************/
+
+header {
+  background-image: url("../img/hero-image.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  margin: 0 25px;
+}
+
+header div.full-width {
+  padding-top: 300px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+/*********************PORTFOLIO-SECTION*******************/
+
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 50px 50px;
+}
+
+img {
+  border: 2px solid #b7b7b7;
+  margin: 25px 20px;
+  width: 90%;
+  height: 500px;
+}
+
+.hover:hover {
+  border: 4px solid #095156;
+}
+
+/********************ABOUT-SECTION**********************/
+
+section#about {
+background-color: #087e8b;
+height: 1100px;
+color: #ffffff;
+}
+
+img#about-me {
+  height: 850px;
+}
+
+span {
+  color: #bdbf09;
+}
+
+ul {
+  list-style-type: circle;
+}
+/*********************CONTACTS-SECTION*******************/
+section#contact {
+background-color: #095156;
+height: 450px;
+color: #ffffff;
+
+}
+
+img.icon {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background-color: #095156;
+  border: 0;
+  padding-top: 25px;
+}
+
+img.popup:hover {
+  width: 80px;
+  height: 80px;
+}
+
+section#contact a {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mail:hover {
+  color: #087e8b;
+}
